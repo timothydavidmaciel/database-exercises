@@ -12,7 +12,7 @@ SELECT last_name FROM employees WHERE last_name LIKE '%q%';
 
 SELECT first_name FROM employees WHERE first_name = 'Irena' OR first_name = 'Vidya' OR first_name = 'Maya';
 
--- With Extra Conditional
+-- With Extra Conditionals
 
 SELECT first_name, gender FROM employees WHERE gender = 'M' AND first_name = 'Irena' OR gender = 'M' AND first_name = 'Vidya' OR gender = 'M' AND first_name = 'Maya';
 
